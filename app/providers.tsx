@@ -13,6 +13,9 @@ const config = createConfig(
     },
     walletConnectProjectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID!,
     appName: "Staking Tutorial",
+    appDescription: "CDP Staking Tutorial",
+    appUrl: "https://localhost:3000",
+    appIcon: "https://localhost:3000/icon.png",
   }),
 );
 
